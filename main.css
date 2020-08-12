@@ -3,12 +3,6 @@
 }
 
 /* PHOTOSLIDES */
-.slideshow {
-  border-radius: 5px;
-  background-color: rgba(179, 176, 177, 0.2);
-  padding: 20px;
-}
-
 .slider {
   width: 250px;
   height: 250px;
@@ -20,6 +14,8 @@
   border-radius: 4px;
   background-color: rgba(179, 176, 177, 0.2);
   padding: 10px 24px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #tab__one:hover {
@@ -33,6 +29,8 @@
   border-radius: 4px;
   background-color: rgba(179, 176, 177, 0.2);
   padding: 10px 24px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #tab__two:hover {
@@ -46,12 +44,18 @@
   border-radius: 4px;
   background-color: rgba(179, 176, 177, 0.2);
   padding: 10px 24px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #tab__three:hover {
   border-bottom: none;
   padding: 10px 24px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+.section__title {
+  font-family: "Oswald", sans-serif;
 }
 
 #section__one {
@@ -75,8 +79,10 @@
   display: none;
 }
 
-Bea .section__title\" {
-  font-family: "Oswald", sans-serif;
+main {
+  height: 300px;
+  border-left: 2px solid lightpink;
+  border-right: 2px solid lightpink;
 }
 
 /*INPUT TEXT MAKE UP*/
@@ -111,11 +117,7 @@ input[type=submit]:hover {
 }
 
 .footer__info {
-  font-size: 20px;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  border-radius: 5px;
-  background-color: rgba(179, 176, 177, 0.2);
-  padding: 20px;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
