@@ -15,28 +15,68 @@
 }
 
 /*TABS AND CONTENT*/
+#tab__one {
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(179, 176, 177, 0.2);
+  padding: 10px 24px;
+}
+
+#tab__one:hover {
+  border-bottom: none;
+  padding: 10px 24px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+#tab__two {
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(179, 176, 177, 0.2);
+  padding: 10px 24px;
+}
+
+#tab__two:hover {
+  border-bottom: none;
+  padding: 10px 24px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+#tab__three {
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(179, 176, 177, 0.2);
+  padding: 10px 24px;
+}
+
+#tab__three:hover {
+  border-bottom: none;
+  padding: 10px 24px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
 #section__one {
   border-radius: 5px;
-  background-color: rgba(179, 176, 177, 0.2);
+  background-color: #f2f2f2;
   padding: 20px;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 20px;
+  display: none;
 }
 
 #section__two {
   border-radius: 5px;
-  background-color: rgba(179, 176, 177, 0.2);
+  background-color: #f2f2f2;
   padding: 20px;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 20px;
+  display: none;
 }
 
 #section__three {
   border-radius: 5px;
-  background-color: rgba(179, 176, 177, 0.2);
+  background-color: #f2f2f2;
   padding: 20px;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 20px;
+  display: none;
+}
+
+Bea .section__title\" {
+  font-family: "Oswald", sans-serif;
 }
 
 /*INPUT TEXT MAKE UP*/
@@ -71,8 +111,8 @@ input[type=submit]:hover {
 }
 
 .footer__info {
-  font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   border-radius: 5px;
   background-color: rgba(179, 176, 177, 0.2);
   padding: 20px;
