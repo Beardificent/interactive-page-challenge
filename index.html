@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport"
-           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link href="main.css" type="text/css" rel="stylesheet"/>
-     <title>CO-OP Mission</title>
+    <title>CO-OP Mission</title>
 </head>
 
 <body>
 
 <header>
-<div class="slideshow">
-    <img class="slider" alt="Charmander" src="https://favorflav.com/images/Festival-TREK-2018-916x458.jpg">
-    <img class="slider" alt="Bulbasaur" src="https://cf.ltkcdn.net/pregnancy/images/orig/224603-1600x1067-Eating-a-hotdog.jpg">
-    <img class="slider" alt="Squirtle" src="https://torontofoodtrucks.ca/wp-content/uploads/2018/07/20170807-2048-FoodTruckFest16.jpg">
-    <img class="slider" alt="Pikachu" src="https://www.salem.org/wp-content/uploads/2019/06/62187848_2701086983295982_3818812146230231040_o.jpg">
-    <button class="slider__button__left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="slider__buton__right" onclick="plusDivs(+1)">&#10095;</button>
-</div>
+    <div class="slideshow">
+        <img class="slider" alt="Charmander" src="https://favorflav.com/images/Festival-TREK-2018-916x458.jpg">
+        <img class="slider" alt="Bulbasaur"
+             src="https://cf.ltkcdn.net/pregnancy/images/orig/224603-1600x1067-Eating-a-hotdog.jpg">
+        <img class="slider" alt="Squirtle"
+             src="https://torontofoodtrucks.ca/wp-content/uploads/2018/07/20170807-2048-FoodTruckFest16.jpg">
+        <img class="slider" alt="Pikachu"
+             src="https://www.salem.org/wp-content/uploads/2019/06/62187848_2701086983295982_3818812146230231040_o.jpg">
+        <button class="slider__button__left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="slider__buton__right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
 </header>
 
 <main>
@@ -29,7 +33,7 @@
         <button id="tab__three">Contact</button>
     </nav>
     <section id="section__one" class="tabContent">
-        <h3>What we're about</h3>
+        <h3 class=section__title">What we're about</h3>
         <p> Foodies unite! We've organised a huge foodie extravaganza! Only this weekend will you get to enjoy delicious
             meals directly from regions like Kanto, Johto or Hoenn..but wait, there's more! We've also got dishes from
             Antwerp, Hoboken en Borgerhout. This weekend everyone is going to be satisfied beyond their culinary dreams!
@@ -46,10 +50,10 @@
     </section>
 
     <section id="section__two" class="tabContent">
-        <h3>Right here!</h3>
+        <h3 class=section__title">Right here!</h3>
         <ul>
             <li>Location: Parkspoor Noord</li>
-            <li>Address:  Ellermanstraat, 2060 Antwerpen, Belgium</li>
+            <li>Address: Ellermanstraat, 2060 Antwerpen, Belgium</li>
         </ul>
 
         <p>Interdimensional food festival bringing the culinary arts of wherever it has been before.</p>
@@ -57,23 +61,23 @@
     </section>
 
     <section id="section__three" class="tabContent">
-        <h3>Contact</h3>
+        <h3 class=section__title">Contact</h3>
         <p>Contact us here.</p>
         <div class="container__cf">
             <form action="contact__page" id="contact">
 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                <input type="text" id="fname" name="firstname" placeholder="eg. Peter">
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="lname" name="lastname" placeholder="eg. Parker">
 
                 <label for="email"> Email</label>
-                <input type="text" id="email" name="email" placeholder="Your email..">
+                <input type="text" id="email" name="email" placeholder="eg. pparker@dailybugle.com">
 
 
                 <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Your question.." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="¿Donde está la biblioteca?" style="height:200px"></textarea>
 
                 <input type="submit" value="Submit">
             </form>
@@ -81,7 +85,7 @@
     </section>
 </main>
 <footer class="footer__info"><b>
-    <p>Probably the best festival in all of the 7 realms, Duration: 3 days.</p>
+    <p>Probably the best festival in all of the 7 realms, Duration: 3 days! 14 - 15th of August.</p>
     <p>Frequency: Once in a lifetime. Expected Visitors: 7000, Since 1998.</p>
     <p id="counter"></p>
 </b></footer>
